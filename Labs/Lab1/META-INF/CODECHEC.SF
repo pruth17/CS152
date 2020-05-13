@@ -1,0 +1,18 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: fhChYitKzEjsdXXfqXBXvqajuoUX9
+ RhQ4tIjqYNEhyY=
+SHA-256-Digest-Manifest: /aed1nbPFQb1qy7e2jkH4Xbw5IE6K3Zwz3CaSZZWq1M=
+Created-By: 1.8.0_242 (Private Build)
+
+Name: codecheck.log
+SHA-256-Digest: u4KiBIRGgLCsdqZufZ7QLIO+GQcHnswvNKUb9Lf/oWE=
+
+Name: report.html
+SHA-256-Digest: iI515JcoWR3gMo04dIKbACPh6AtAL9sF5Re51JBIUm4=
+
+Name: scheme-intro.rkt
+SHA-256-Digest: RD8y5gl0nqVe0QVzhpmLAZdbdJ5tqJ91FEZRlkRcck4=
+
+Name: codecheck.out
+SHA-256-Digest: b52xXFI58Bk2vYsOBFW4SeAtUihwAfI35pqcs+KFu0w=
+

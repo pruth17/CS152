@@ -1,0 +1,18 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: fhChYitKzEjsdXXfqXBXvqajuoUX9
+ RhQ4tIjqYNEhyY=
+SHA-256-Digest-Manifest: hCtchHvRbZDJL6//PeD6rUmvC5ylQn7uj43M3QHvCLA=
+Created-By: 1.8.0_242 (Private Build)
+
+Name: codecheck.log
+SHA-256-Digest: /v12QNwZxhUuNH1aPtNs91X5nh3YQx/BhJnryLZif/8=
+
+Name: report.html
+SHA-256-Digest: M23s+9hdaBTVqfC+clJqo47Ul79P4lo8B2CzEPTlSYI=
+
+Name: lab-map-filter.rkt
+SHA-256-Digest: 3BKRbuqoG3axZ5oZHl2my7IW4PIlDjD3oAt1Vy8+Nk4=
+
+Name: codecheck.out
+SHA-256-Digest: b52xXFI58Bk2vYsOBFW4SeAtUihwAfI35pqcs+KFu0w=
+

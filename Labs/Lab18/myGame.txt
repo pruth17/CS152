@@ -1,0 +1,35 @@
+"SampleGame" by Pruthvi
+
+Use no scoring.
+
+When play begins:
+say "Your name is Roger, an avid gamer. After playing a lot of games last night you went to sleep really late. You have just woken up".
+The Bedroom is a room. "The wall has posters of different games all over it!".
+
+The PS4 is in the room. "It's a dark colored console. There are a lot different game CDs next to it. You feel tempted to play more but decide to go down".
+
+The clock is in the room. "It's a white colored analog watch on the wall. You check there to see what time is it and realize that you have woken up late.... again".
+
+The time of day is 2:00 pm.
+
+ 
+
+
+At 2:05 PM:
+Say "You hear some noise in the kitchen, so you go down to see what's going on.".
+
+Now you are in the kitchen.
+
+The kitchen is a room. "It's a big kitchen with a kitchen island. There are lot of foods in the fridge. Your favouirate food is cheeseburger".
+The kitchen is north of the Bedroom.
+The fridge is in the kitchen. "It's a big fridge with lot's of stuff in it.".
+
+Mom is in the kitchen. "Mom is caring and always helps you.". Mom is a woman.
+Dad is in the kitchen. "Dad is always angry at you for waking up late." Dad is a man.
+
+Instead of examining the fridge, say "You woke up late again, so dad is furious with you. Mom tries to defend you but it goes in vain.".
+
+Instead of examining Dad:
+say "You are terrified of the situation so you go back to your room and start playing some games".
+
+ 

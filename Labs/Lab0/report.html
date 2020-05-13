@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<meta name="Submission" content="/tmp/codecheck/2001271945422244206293935530"/>
+<meta name="Time" content="2020-01-27T19:45:07Z"/>
+<meta name="ID" content="shapes"/>
+<meta name="User" content="20012719233xnqoonqf4h33z655sgel0i49"/>
+<meta name="Problem" content="ext/1806020507bex1fvr5dlcn0r3zqfhovffwl"/>
+<meta name="Elapsed" content="6443 ms"/>
+<style type="text/css">
+.header {font-weight: bold; font-size: 1.2em; }
+.item {font-weight: bold;}
+.pass {color: green;}
+.fail {color: red;}
+.note {color: blue; font-weight: bold;}
+table.file td {padding-right: 1em; background: #FFF; }
+.linenumber {color: gray;}
+.footnote {font-size: 0.7em;}
+table {font-size: 0.9em;}
+td, th { background: #EEE; margin: 0.5em; padding: 0.25em;}
+table.output td {vertical-align: top;}
+div.footnotes { border-top: 1px solid gray; padding-top: 0.5em; }
+</style>
+<title>Report</title>
+</head>
+<body>
+<p class="header call">Calling with Arguments</p>
+<div class="call">
+<table class="run">
+<tr><th>&#160;</th><th>Name</th><th>Arguments</th><th>Actual</th><th>Expected</th></tr>
+<tr><td><span class="pass">pass </span></td>
+<td><pre>rectangle-area</pre></td>
+<td><pre>3 4</pre></td>
+<td><pre>12</pre></td>
+<td><pre>12</pre></td>
+</tr>
+<tr><td><span class="pass">pass </span></td>
+<td><pre>rectangle-area</pre></td>
+<td><pre>7 2</pre></td>
+<td><pre>14</pre></td>
+<td><pre>14</pre></td>
+</tr>
+<tr><td><span class="pass">pass </span></td>
+<td><pre>rectangle-area</pre></td>
+<td><pre>8 0</pre></td>
+<td><pre>0</pre></td>
+<td><pre>0</pre></td>
+</tr>
+<tr><td><span class="pass">pass </span></td>
+<td><pre>rectangle-area</pre></td>
+<td><pre>-3 4</pre></td>
+<td><pre>12</pre></td>
+<td><pre>12</pre></td>
+</tr>
+<tr><td><span class="pass">pass </span></td>
+<td><pre>square-area</pre></td>
+<td><pre>0</pre></td>
+<td><pre>0</pre></td>
+<td><pre>0</pre></td>
+</tr>
+<tr><td><span class="pass">pass </span></td>
+<td><pre>square-area</pre></td>
+<td><pre>-1</pre></td>
+<td><pre>1</pre></td>
+<td><pre>1</pre></td>
+</tr>
+<tr><td><span class="pass">pass </span></td>
+<td><pre>square-area</pre></td>
+<td><pre>3</pre></td>
+<td><pre>9</pre></td>
+<td><pre>9</pre></td>
+</tr>
+<tr><td><span class="pass">pass </span></td>
+<td><pre>square-area</pre></td>
+<td><pre>99</pre></td>
+<td><pre>9801</pre></td>
+<td><pre>9801</pre></td>
+</tr>
+<tr><td><span class="pass">pass </span></td>
+<td><pre>triangle-area</pre></td>
+<td><pre>99 2</pre></td>
+<td><pre>99</pre></td>
+<td><pre>99</pre></td>
+</tr>
+<tr><td><span class="pass">pass </span></td>
+<td><pre>triangle-area</pre></td>
+<td><pre>12 4</pre></td>
+<td><pre>24</pre></td>
+<td><pre>24</pre></td>
+</tr>
+<tr><td><span class="pass">pass </span></td>
+<td><pre>triangle-area</pre></td>
+<td><pre>3 3</pre></td>
+<td><pre>9/2</pre></td>
+<td><pre>9/2</pre></td>
+</tr>
+<tr><td><span class="pass">pass </span></td>
+<td><pre>triangle-area</pre></td>
+<td><pre>2 0</pre></td>
+<td><pre>0</pre></td>
+<td><pre>0</pre></td>
+</tr>
+<tr><td><span class="pass">pass </span></td>
+<td><pre>triangle-area</pre></td>
+<td><pre>-4 5</pre></td>
+<td><pre>10</pre></td>
+<td><pre>10</pre></td>
+</tr>
+</table>
+</div>
+<p class="header studentFiles">Submitted files</p>
+<div class="studentFiles">
+<p class="caption">shapes.rkt:</p>
+<pre>#lang racket
+
+; Exports.  In Java terminology, these functions are public.
+(provide rectangle-area square-area triangle-area)
+
+; Returns the area of a rectangle.
+; If the area would be negative, the absolute value is returned instead.
+(define (rectangle-area w h)
+  (abs (* w h))
+  )
+
+; Returns the area of a square.
+(define (square-area s)
+  (abs (* s s))
+  )
+
+; Returns the area of a triangle.
+(define (triangle-area b h)
+  (abs (/ (* b h) 2))
+  )
+</pre>
+</div>
+<p class="header score">Score</p>
+<div class="score">
+<p class="score">13/13</p>
+</div>
+<div class="footnotes"><div class="footnote">2020-01-27T19:45:07Z</div>
+</div>
+</body></html>

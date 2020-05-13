@@ -1,0 +1,18 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: fhChYitKzEjsdXXfqXBXvqajuoUX9
+ RhQ4tIjqYNEhyY=
+SHA-256-Digest-Manifest: OZkonKgqtvTiw9/SQiVIJ1bOKwu8IbZcuHvF9qmDM8c=
+Created-By: 1.8.0_242 (Private Build)
+
+Name: fold.rkt
+SHA-256-Digest: nrqSVfpSNaTRdmUWP271fYPgkQMf/+WTqNO4SVmV7Mw=
+
+Name: codecheck.log
+SHA-256-Digest: xLjvkX9Q4QGjVDo8/hAuheQdaeVsabuUhqyNwXoEl64=
+
+Name: report.html
+SHA-256-Digest: F1q3OJuoR0re0CEOntHXSD0NJm7Hxkha0PmJzbbdyjA=
+
+Name: codecheck.out
+SHA-256-Digest: b52xXFI58Bk2vYsOBFW4SeAtUihwAfI35pqcs+KFu0w=
+
