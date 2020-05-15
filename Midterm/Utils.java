@@ -134,25 +134,19 @@ public class Utils {
         List<Integer> lint = new ArrayList<Integer>(Arrays.asList(1, 2, 93, -1, 3, 22, 9));
 
         out.println("Starting useMap 1");
-        ////////////////////////////////////////
-        // YOUR CODE HERE -- Replace the lambda with something appropriate
         List<Integer> squaredList = Utils.map(lint, x -> x * x);
-        ////////////////////////////////////////
+        
         out.println("Squared elements: " + squaredList);
 
         out.println("Starting useMap 2");
-        ////////////////////////////////////////
-        // YOUR CODE HERE -- Replace the lambda with something appropriate
+      
         List<String> stringList = Utils.map(lint, n -> String.valueOf(n));
-        ////////////////////////////////////////
         out.println("Numbers as strings: " + stringList);
 
         out.println("Starting useMap 3");
-        ////////////////////////////////////////
-        // YOUR CODE HERE -- Replace the lambda with something appropriate
+        
         List<String> countDigits = Utils.map(lint, n -> n + " : " + String.valueOf(n).length());
-        // (int)(Math.log10(n) + 1));
-        ////////////////////////////////////////
+        
         out.println("Count of digits: " + countDigits);
     }
 
