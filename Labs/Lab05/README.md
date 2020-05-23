@@ -1,12 +1,5 @@
 # CS152 SJSU
+Extended the Bool* language.
 
-Programming language syntax and semantics
-
-Data types and type checking.
-
-Scope, bindings, and environments
-
-Functional and logic programming paradigms, and comparison to other paradigms
-
-Extensive coverage of a functional language
+Added support for numbers, the succ operator, and the pred operator.
 
