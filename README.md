@@ -10,5 +10,5 @@ Functional and logic programming paradigms, and comparison to other paradigms
 
 Extensive coverage of a functional language
 
-Programming languages covered: Racket, JavaScript, LintJS, Inform 7, Ruby, Rust, Prolog, Antlr
+Programming languages covered: Racket, JavaScript, LintJS, Inform 7, Ruby, Rust, Prolog, Antlr, Java, C
 
